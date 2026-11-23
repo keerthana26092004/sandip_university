@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sandip University | Empowering Dreams & Shaping Future</title>
+<meta name="description" content="Sandip University offers UGC & NAAC accredited online MBA and BBA programmes for a global career. Fill the form to get a callback from our counsellors." />
+<meta property="og:title" content="Sandip University | Empowering Dreams & Shaping Future" />
+<meta property="og:description" content="UGC & NAAC accredited online degree programmes. Flexible learning, expert faculty, global recognition and career support." />
+<meta property="og:type" content="website" />
+
+<!-- Google Fonts: university wordmark and page typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= HERO / UNIVERSITY HEADER ================= -->
+<header class="hero">
+  <div class="hero__top container">
+    <div class="hero__brand">
+      <img src="assets/logo.png" alt="Sandip University logo" class="hero__logo" width="86" height="86" />
+      <div class="hero__brand-text">
+        <h1 class="hero__title">SANDIP<span>UNIVERSITY</span></h1>
+          <p class="hero__programmes">Online Programmes</p>
+        <p class="hero__accredited">UGC &amp; NAAC Accredited</p>
+      </div>
+    </div>
+   <div class="hero__student-side" style="display: flex; flex-direction: column; align-items: center;">
+  <img src="assets/students.png"
+       alt="Sandip University students smiling"
+       class="hero__students"
+       loading="lazy"
+       width="420"
+       height="300" />
+
+  <p class="hero__lgs" style="margin: 0; white-space: nowrap;">
+    Learn&nbsp;|&nbsp;&nbsp;Grow&nbsp|&nbsp;&nbsp;Succeed
+  </p>
+</div>
+  </div>
+
+  <!-- <div class="hero__mid container">
+    <h2 class="hero__tagline">Empowering Dreams<br>Shaping Future</h2>
+  </div> -->
+
+  <p class="hero__strip">Empowering Dreams & Shaping Future</p>
+</header>
+
+<!-- ================= PROGRAM HIGHLIGHTS ================= -->
+<section class="highlights container" aria-label="Programme highlights">
+  <div class="highlight-item">
+    <span class="highlight-icon highlight-icon--blue" aria-hidden="true"><i class="fa-solid fa-user-graduate"></i></span>
+    <span class="highlight-text"><strong>MBA</strong>Marketing</span>
+  </div>
+
+  <span class="highlight-divider" aria-hidden="true"></span>
+
+  <div class="highlight-item">
+    <span class="highlight-icon highlight-icon--purple" aria-hidden="true"><i class="fa-solid fa-people-group"></i></span>
+    <span class="highlight-text"><strong>BBA</strong>General</span>
+  </div>
+
+  <span class="highlight-divider" aria-hidden="true"></span>
+
+  <ul class="highlight-tags">
+    <li>Flexible Learning</li>
+    <li>Expert Faculty</li>
+    <li>Global Recognition</li>
+    <li>Career Support</li>
+  </ul>
+</section>
+
+<!-- ================= MAIN: FORM + WHY CHOOSE ================= -->
+<main class="container main-grid">
+
+  <!-- ================= CALLBACK FORM ================= -->
+  <section class="form-card" aria-labelledby="form-heading">
+    <div class="form-card__header">
+      <div>
+        <h2 id="form-heading">Register to receive the Programme Broucher & Admission Link </h2>
+      </div>
+    </div>
+
+    <form id="enquiry-form" novalidate>
+
+      <div class="field">
+        <label for="fullName"><i class="fa-solid fa-user field-icon" aria-hidden="true"></i>Full Name <span class="req">*</span></label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" autocomplete="name" aria-required="true" aria-describedby="fullName-error" />
+        <p class="error-message" id="fullName-error" role="alert"></p>
+      </div>
+
+      <div class="field">
+        <label for="email"><i class="fa-solid fa-envelope field-icon" aria-hidden="true"></i>Email Address <span class="req">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" aria-required="true" aria-describedby="email-error" />
+        <p class="error-message" id="email-error" role="alert"></p>
+      </div>
+
+      <div class="field">
+        <label for="mobile"><i class="fa-solid fa-phone field-icon" aria-hidden="true"></i>Mobile Number <span class="req">*</span></label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" autocomplete="tel" aria-required="true" aria-describedby="mobile-error" />
+        <p class="error-message" id="mobile-error" role="alert"></p>
+      </div>
+
+      <div class="field">
+        <label for="academicSession"><i class="fa-solid fa-calendar-days field-icon" aria-hidden="true"></i>Academic Session <span class="req">*</span></label>
+        <select id="academicSession" name="academicSession" aria-required="true" aria-describedby="academicSession-error">
+          <option value="">Select Session</option>
+          <option value="S-2027">S-2027</option>
+          <option value="W-2026">W-2026</option>
+        </select>
+        <p class="error-message" id="academicSession-error" role="alert"></p>
+      </div>
+
+      <div class="field">
+        <label for="interestedProgram"><i class="fa-solid fa-graduation-cap field-icon" aria-hidden="true"></i>Interested Program <span class="req">*</span></label>
+        <select id="interestedProgram" name="interestedProgram" aria-required="true" aria-describedby="interestedProgram-error">
+          <option value="">— Select Program —</option>
+          <option value="Bachelor of Business Administration - General">Bachelor of Business Administration - General</option>
+          <option value="Master of Business Administration - Marketing">Master of Business Administration - Marketing</option>
+        </select>
+        <p class="error-message" id="interestedProgram-error" role="alert"></p>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submit-btn">
+        <span class="submit-btn__label"><i class="fa-solid fa-phone" aria-hidden="true"></i> Submit <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+      </button>
+
+      <p class="form-note">Our counsellors will contact you shortly.</p>
+
+      <div class="form-success" id="form-success" role="status" hidden>
+        <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+        <p><strong>Thank you!</strong><br>Your enquiry has been submitted successfully.<br>Our counsellor will contact you shortly.</p>
+      </div>
+    </form>
+  </section>
+
+  <!-- ================= WHY CHOOSE SANDIP UNIVERSITY ================= -->
+  <aside class="why-card" aria-labelledby="why-heading">
+    <h2 id="why-heading">Why Choose<br>Sandip University?</h2>
+    <span class="why-underline" aria-hidden="true"></span>
+
+    <ul class="why-list">
+      <li>
+        <span class="why-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></span>
+        <span>UGC &amp; NAAC Accredited</span>
+      </li>
+      <li>
+        <span class="why-icon" aria-hidden="true"><i class="fa-solid fa-earth-asia"></i></span>
+        <span>Globally Recognised Degrees</span>
+      </li>
+      <li>
+        <span class="why-icon" aria-hidden="true"><i class="fa-solid fa-laptop"></i></span>
+        <span>100% Online Flexible Learning</span>
+      </li>
+      <li>
+        <span class="why-icon" aria-hidden="true"><i class="fa-solid fa-people-group"></i></span>
+        <span>Industry Experienced Faculty</span>
+      </li>
+      <li>
+        <span class="why-icon" aria-hidden="true"><i class="fa-solid fa-briefcase"></i></span>
+        <span>Career Support &amp; Placement Assistance</span>
+      </li>
+    </ul>
+
+    <p class="why-quote">
+      <span class="quote-mark quote-mark--open" aria-hidden="true">&ldquo;</span>
+      Your Future<br>Our Priority
+      <span class="quote-mark quote-mark--close" aria-hidden="true">&rdquo;</span>
+    </p>
+  </aside>
+</main>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
